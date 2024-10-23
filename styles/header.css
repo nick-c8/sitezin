@@ -1,0 +1,65 @@
+.cabeçalho_menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url(../Aulabooks/img/Menu.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: center;
+    margin-right: 1%;
+}
+
+.cabeçalho {
+    background-color: var(--cinza-bonito);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+.container__imagem {
+    padding: 3%;
+    margin: 5%;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--cinza-bonito);
+
+}
+
+.lista-menu__titulo {
+    color: var(--cor-logo);
+    font-weight: 700;
+}
+
+.lista-menu__link {
+    color: var(--cor-letras);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--cor-letras);
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.container__botao {
+    display: none;
+
+}
