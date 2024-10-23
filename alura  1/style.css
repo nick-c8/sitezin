@@ -1,0 +1,24 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrosel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-de-fundo: #363636;
+    --cinza-bonito: #4f5052;
+    --cor-logo: #6495ED;
+    --cor-letras: #B0C4DE;
+    --cor-banner: #B0C4DE;
+    --azul-bonito: #002f52;
+
+    --fonte-principal: "poppins";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
